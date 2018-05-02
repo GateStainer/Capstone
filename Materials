@@ -1,0 +1,51 @@
+#Semantic Segmentation
+Semantic segmentation is a fundamental problem in computer vision community which aims to classify pixels into semantic categories.
+
+
+
+
+
+
+
+
+
+
+
+#Portrait Segmentation
+Compared to the general semantic segmentation problems, portrait segmentation has higher precision requirement on boundary area. Also the background has a variety of styles which makes it hard to distinguish it from portrait.
+Portrait segmentation generates pixel-wise prediction as foreground or background.
+In portrait segmentation, precise segmentation around object boundaries is crucial but challenging. For application like background replacement, accurate and smooth boundary segmentation(such as hair and clothes) is the key for better visual effects. 
+
+
+
+
+#后处理
+It has been widely used in many real-world applications, such as augmented reality, background replacement, portrait stylization, depth of field, advanced driver assistance systems.
+
+
+
+
+
+##Related work
+#Semantic segmentation
+Unsupervised methods:
+thresholding, k-means clustering
+
+Supervised methods
+FCN
+
+
+
+
+
+#Metrics
+
+
+
+
+
+
+
+
+
+
